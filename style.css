@@ -1,0 +1,111 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+body section p{
+  max-width: 50%;
+}
+div img{
+  width: 20pc;
+  height: 20pc;
+}
+
+section img {
+  width: 20pc;
+  height: 20pc;
+  float:unset;
+}
+
+section div img {
+  width: 7pc;
+  height: 7%;
+  float: right;
+}
+
+section div h2 {
+color: red;
+font-family:monospace;
+font-size: xx-large;
+padding: 0.1pc;
+margin: 1pc;
+
+}
+
+section div p {
+color: white;
+font-size: x-large;
+font-family: monospace;
+
+}
+
+main section div {
+  background-color: black;
+  padding: 1pc;
+  margin:1pc;
+  border-radius: 20px;
+}
+
+section h1 {
+  font-size:xx-large ;
+  padding: 0.1pc;
+  margin: 1pc;
+}
+
+section p {
+  padding: 0.1pc;
+  margin: 1pc;
+}
+
+section  h2 {
+  padding: 0.1pc;
+  margin: 1pc;
+}
+
+.button :hover {
+  padding: 3px;
+  transform: scale(1.2);
+
+}
+
+audio {
+  color:brown;
+}
