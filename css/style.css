@@ -1,0 +1,141 @@
+flexbox en grid
+uitleg over plaatje links rechts
+*{
+  margin: 0em;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0em;
+  padding: 0em;
+}
+
+header {
+  background-color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  padding: 1.5em;
+  margin: 0;
+  text-align: center;
+}
+
+.websitenaam :hover {
+  transform: scale(2.3);
+  padding: 0;
+  transition: all 50ms ease;
+}
+
+nav ul { 
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+nav li a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: block;
+  padding: 0.625em;
+  color: black;
+  text-decoration: none;
+  font-size: large;
+}
+
+.button :hover {
+  padding: 0.1875em;
+  transform: scale(1.4);
+}
+
+/* ------------------------------------------start body--------------------------------------------- */
+
+main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 1.25em;
+}
+
+body article p{
+  max-width: 60%;
+  font-size: larger;
+}
+
+section img , div img {
+  width: 20em;
+  height: 20em;
+  margin-left: auto;
+  border: 0.5em solid black;
+  background-color: white;
+  
+}
+
+.artist :hover {
+  filter: blur(0.5em);
+  transform: 1.1;
+}
+
+main section article {
+  background-color: black;
+  padding: 1.25em;
+  margin: 0.2em;
+  border-radius: 1.25em;
+}
+
+main article h3 {
+  padding: 0em;
+  margin: 0em;
+  font-size: x-large;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 1.25em;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/* hoort bij discography */
+
+main section h3 {
+  font-size: x-large;
+  margin: 0.5em;
+}
+section article img {
+  width: 7em;
+  height: 7em;
+  float: right;
+}
+
+section article h4 {
+color: red;
+font-family:monospace;
+font-size: 2em;
+padding: 0.1em;
+margin: 0.5em;
+}
+
+section article p {
+color: white;
+font-size: 1.5em;
+font-family: monospace;
+margin: 0.8em;
+}
+
+audio {
+  border-radius: 1em;
+}
+
+.titel {
+  padding: 1,25em;
+  font-size: 2.5em;
+  justify-content: flex-start;
+  color: black;
+  font-weight: 600;
+  background-color: white;
+}
